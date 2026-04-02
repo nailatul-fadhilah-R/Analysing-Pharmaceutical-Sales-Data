@@ -2,8 +2,8 @@
 
 This project provides a comprehensive analysis of daily pharmaceutical sales data. Using Python and data science libraries, it processes sales records to identify top-performing drug categories and seasonal trends, specifically focusing on respiratory medications. this project is from roadmap.sh 
 
-roadmap.sh/projects/pharmaceutical-sales-data
-
+[roadmap.sh/projects/pharmaceutical-sales-data
+](https://roadmap.sh/projects/pharmaceutical-sales-data)
 ---
 
 ## 📋 Project Overview
