@@ -1,12 +1,8 @@
 # Analysing Pharmaceutical Sales Data
 
-This project provides a comprehensive analysis of daily pharmaceutical sales data. Using Python and data science libraries, it processes sales records to identify top-performing drug categories and seasonal trends, specifically focusing on respiratory medications. this project is from roadmap.sh 
+This project provides a comprehensive analysis of daily pharmaceutical sales data. Using Python and data science libraries, it processes sales records to identify top-performing drug categories and seasonal trends, specifically focusing on respiratory medications. this project is from [roadmap.sh](https://roadmap.sh/projects/pharmaceutical-sales-data) 
 
-[roadmap.sh](https://roadmap.sh/projects/pharmaceutical-sales-data)
----
-
-## 📋 Project Overview
-
+## Project Overview
 The goal of this analysis is to transform raw sales data into actionable insights. The script processes a dataset containing various drug categories classified by **ATC (Anatomical Therapeutic Chemical)** codes.
 
 ### Key Features:
@@ -15,19 +11,13 @@ The goal of this analysis is to transform raw sales data into actionable insight
 * **Performance Benchmarking:** Identifies the highest-selling products and specific monthly leaders.
 * **Data Visualization:** Generates professional bar charts and line graphs for report usage.
 
----
-
-## 🛠️ Technical Stack
-
+##  Technical Stack
 * **Language:** Python
 * **Libraries:** * `Pandas`: For data manipulation and CSV processing.
     * `Matplotlib`: For generating high-quality visualizations.
     * `OS`: For directory and file management.
 
----
-
-## 📖 Code Explanation
-
+## Code Explanation
 The script `Analysis.py` follows a logical data science workflow:
 
 ### 1. Data Loading & Preprocessing
@@ -42,10 +32,7 @@ The script generates two primary plots:
 * **Bar Chart:** Uses `kind='bar'` to compare the volume of different drug categories.
 * **Line Plot:** Specifically targets the 'R03' category, plotting its sales over time to show seasonality.
 
----
-
-## 📊 Visualization & Data Insights
-
+## Visualization & Data Insights
 Based on the generated images, here is the analysis:
 
 ### 1. Total Sales Analysis (Bar Chart)
@@ -58,9 +45,7 @@ This graph tracks Respiratory drug sales (R03) throughout the months.
 * **Trend Analysis:** There is noticeable fluctuation in sales. Typically, R03 drugs (often used for asthma or coughs) show peaks during specific seasons (e.g., winter or high-allergy seasons).
 * **Insight:** The dips and peaks indicate that stock levels for respiratory medicine should be managed seasonally rather than kept at a constant level year-round.
 
----
-
-## 🗂️ Data Dictionary (ATC Codes)
+## Data Dictionary (ATC Codes)
 | Code | Category |
 | :--- | :--- |
 | **M01AB/AE** | Anti-inflammatory and antirheumatic products |
